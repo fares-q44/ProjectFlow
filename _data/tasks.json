@@ -1,0 +1,267 @@
+[
+    {
+      "title": "Design Wireframes",
+      "description": "Create wireframe designs for the website pages",
+      "status": "To Do",
+      "dueDate": "2022-11-15",
+      "assignedTo": "645cdaac09dec6f6d4694fb2",
+      "priority": "Medium",
+      "tags": ["Design", "UI/UX"],
+      "project": "646cf76312d5f9b4f1db8bf9",
+      "createdDate": "2022-10-01"
+    },
+    {
+      "title": "Implement User Authentication",
+      "description": "Develop user authentication functionality using JWT",
+      "status": "In Progress",
+      "dueDate": "2022-11-30",
+      "assignedTo": "646ccca692a19d062380bd05",
+      "priority": "High",
+      "tags": ["Development", "Security"],
+      "project": "646cf76312d5f9b4f1db8bf9",
+      "createdDate": "2022-10-02"
+    },
+    {
+      "title": "Configure Database",
+      "description": "Set up the database and define schema for the application",
+      "status": "To Do",
+      "dueDate": "2022-11-10",
+      "assignedTo": "646cccd692a19d062380bd07",
+      "priority": "Medium",
+      "tags": ["Database", "Backend"],
+      "project": "646cf76312d5f9b4f1db8bf9",
+      "createdDate": "2022-10-03"
+    },
+    {
+      "title": "Implement Product Catalog",
+      "description": "Develop functionality to manage and display product catalog",
+      "status": "To Do",
+      "dueDate": "2022-12-10",
+      "assignedTo": "646ccce292a19d062380bd09",
+      "priority": "Medium",
+      "tags": ["Development", "Frontend"],
+      "project": "646cf76312d5f9b4f1db8bf9",
+      "createdDate": "2022-10-04"
+    },
+    {
+      "title": "Test Website Performance",
+      "description": "Perform load testing to evaluate website performance",
+      "status": "To Do",
+      "dueDate": "2022-12-15",
+      "assignedTo": "646ccceb92a19d062380bd0b",
+      "priority": "Low",
+      "tags": ["Testing", "Performance"],
+      "project": "646cf76312d5f9b4f1db8bf9",
+      "createdDate": "2022-10-05"
+    },
+        {
+          "title": "UI Design",
+          "description": "Create a visually appealing user interface design for the mobile app.",
+          "status": "In Progress",
+          "dueDate": "2023-06-15",
+          "assignedTo": "645cdaac09dec6f6d4694fb2",
+          "priority": "Medium",
+          "tags": ["Design", "UI"],
+          "project": "646cf76312d5f9b4f1db8bfa",
+          "createdDate": "2023-05-25"
+        },
+        {
+          "title": "Backend Development",
+          "description": "Implement the server-side logic and APIs for the mobile app.",
+          "status": "To Do",
+          "dueDate": "2023-06-30",
+          "assignedTo": "646ccca692a19d062380bd05",
+          "priority": "High",
+          "tags": ["Development", "Backend"],
+          "project": "646cf76312d5f9b4f1db8bfa",
+          "createdDate": "2023-05-25"
+        },
+        {
+          "title": "Database Setup",
+          "description": "Set up the database and define the required data models.",
+          "status": "To Do",
+          "dueDate": "2023-06-20",
+          "assignedTo": "646cccd692a19d062380bd07",
+          "priority": "Medium",
+          "tags": ["Database", "Setup"],
+          "project": "646cf76312d5f9b4f1db8bfa",
+          "createdDate": "2023-05-25"
+        },
+        {
+          "title": "API Integration",
+          "description": "Integrate external APIs for features like authentication and data retrieval.",
+          "status": "To Do",
+          "dueDate": "2023-06-25",
+          "assignedTo": "646ccce292a19d062380bd09",
+          "priority": "Medium",
+          "tags": ["Integration", "API"],
+          "project": "646cf76312d5f9b4f1db8bfa",
+          "createdDate": "2023-05-25"
+        },
+        {
+          "title": "Testing and Bug Fixes",
+          "description": "Perform testing and fix bugs to ensure the app functions properly.",
+          "status": "To Do",
+          "dueDate": "2023-07-05",
+          "assignedTo": "646ccceb92a19d062380bd0b",
+          "priority": "Low",
+          "tags": ["Testing", "Bug Fixes"],
+          "project": "646cf76312d5f9b4f1db8bfa",
+          "createdDate": "2023-05-23"
+        },{
+            "title": "Implement User Authentication",
+            "description": "Develop user authentication functionality with proper validation and secure password storage.",
+            "status": "In Progress",
+            "dueDate": "2023-02-15",
+            "assignedTo": "646ccca692a19d062380bd05",
+            "priority": "Medium",
+            "tags": ["Authentication", "Security"],
+            "project": "646cf76312d5f9b4f1db8bfb",
+            "createdDate": "2023-01-20"
+          },
+          {
+            "title": "Design Database Schema",
+            "description": "Create a well-structured database schema to store project-related data efficiently.",
+            "status": "To Do",
+            "dueDate": "2023-02-28",
+            "assignedTo": "646cccd692a19d062380bd07",
+            "priority": "High",
+            "tags": ["Database", "Schema Design"],
+            "project": "646cf76312d5f9b4f1db8bfb",
+            "createdDate": "2023-01-22"
+          },
+          {
+            "title": "Implement Frontend UI",
+            "description": "Develop the user interface of the project using modern frontend technologies and frameworks.",
+            "status": "To Do",
+            "dueDate": "2023-03-10",
+            "assignedTo": "646ccce292a19d062380bd09",
+            "priority": "Medium",
+            "tags": ["Frontend", "UI Design"],
+            "project": "646cf76312d5f9b4f1db8bfb",
+            "createdDate": "2023-01-25"
+          },
+          {
+            "title": "Write API Documentation",
+            "description": "Document the project's API endpoints and provide clear instructions for developers to integrate with the system.",
+            "status": "To Do",
+            "dueDate": "2023-03-05",
+            "assignedTo": "646ccceb92a19d062380bd0b",
+            "priority": "Low",
+            "tags": ["Documentation", "API"],
+            "project": "646cf76312d5f9b4f1db8bfb",
+            "createdDate": "2023-01-28"
+          },
+          {
+            "title": "Perform Testing and Bug Fixes",
+            "description": "Thoroughly test the project for any bugs or issues and fix them to ensure a stable and reliable application.",
+            "status": "To Do",
+            "dueDate": "2023-03-20",
+            "assignedTo": "646cccf492a19d062380bd0d",
+            "priority": "High",
+            "tags": ["Testing", "Bug Fixes"],
+            "project": "646cf76312d5f9b4f1db8bfb",
+            "createdDate": "2023-02-02"
+          },
+          
+            {
+              "title": "Design Homepage",
+              "description": "Create a visually appealing and user-friendly homepage design for the website.",
+              "status": "In Progress",
+              "dueDate": "2023-06-15",
+              "assignedTo": "646ccca692a19d062380bd05",
+              "priority": "Medium",
+              "tags": ["UI", "Design"],
+              "project": "646cf76312d5f9b4f1db8bfc"
+            },
+            {
+              "title": "Implement User Authentication",
+              "description": "Develop user authentication functionality using JWT for secure access to the system.",
+              "status": "To Do",
+              "dueDate": "2023-06-30",
+              "assignedTo": "646ccceb92a19d062380bd0b",
+              "priority": "High",
+              "tags": ["Security", "Authentication"],
+              "project": "646cf76312d5f9b4f1db8bfc"
+            },
+            {
+              "title": "Create Product Listing Page",
+              "description": "Build a page to display a list of products with relevant details and sorting/filtering options.",
+              "status": "To Do",
+              "dueDate": "2023-07-10",
+              "assignedTo": "646cccf492a19d062380bd0d",
+              "priority": "Medium",
+              "tags": ["E-commerce", "Frontend"],
+              "project": "646cf76312d5f9b4f1db8bfc"
+            },
+            {
+              "title": "Optimize Database Queries",
+              "description": "Improve the performance of database queries by optimizing indexes and query structure.",
+              "status": "To Do",
+              "dueDate": "2023-07-20",
+              "assignedTo": "646cccd692a19d062380bd07",
+              "priority": "High",
+              "tags": ["Database", "Performance"],
+              "project": "646cf76312d5f9b4f1db8bfc"
+            },
+            {
+              "title": "Write Unit Tests",
+              "description": "Develop comprehensive unit tests to ensure the functionality and reliability of the codebase.",
+              "status": "To Do",
+              "dueDate": "2023-07-31",
+              "assignedTo": "646ccce292a19d062380bd09",
+              "priority": "Medium",
+              "tags": ["Testing", "Quality Assurance"],
+              "project": "646cf76312d5f9b4f1db8bfc"
+            }, {
+                "title": "Design UI Wireframes",
+                "description": "Create wireframes for the user interface of the application.",
+                "status": "To Do",
+                "dueDate": "2023-03-20",
+                "assignedTo": "646cccf492a19d062380bd0d",
+                "priority": "Medium",
+                "tags": ["UI", "Design"],
+                "project": "646cf76312d5f9b4f1db8bf8"
+              },
+              {
+                "title": "Develop Backend API",
+                "description": "Implement the backend API endpoints for the application.",
+                "status": "In Progress",
+                "dueDate": "2023-04-05",
+                "assignedTo": "646ccca692a19d062380bd05",
+                "priority": "High",
+                "tags": ["Backend", "API"],
+                "project": "646cf76312d5f9b4f1db8bf8"
+              },
+              {
+                "title": "Create User Authentication",
+                "description": "Implement user authentication and authorization functionality.",
+                "status": "To Do",
+                "dueDate": "2023-03-25",
+                "assignedTo": "646cccd692a19d062380bd07",
+                "priority": "Medium",
+                "tags": ["Authentication", "Security"],
+                "project": "646cf76312d5f9b4f1db8bf8"
+              },
+              {
+                "title": "Optimize Performance",
+                "description": "Identify and resolve performance bottlenecks in the application.",
+                "status": "To Do",
+                "dueDate": "2023-04-10",
+                "assignedTo": "646cccf492a19d062380bd0d",
+                "priority": "High",
+                "tags": ["Performance", "Optimization"],
+                "project": "646cf76312d5f9b4f1db8bf8"
+              },
+              {
+                "title": "Write Unit Tests",
+                "description": "Create unit tests to ensure the correctness of the application's functionality.",
+                "status": "To Do",
+                "dueDate": "2023-03-30",
+                "assignedTo": "646cccd692a19d062380bd07",
+                "priority": "Medium",
+                "tags": ["Testing", "Unit Tests"],
+                "project": "646cf76312d5f9b4f1db8bf8"
+              }    
+  ]
+  

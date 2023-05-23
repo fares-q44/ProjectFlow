@@ -8,11 +8,11 @@ For a project management application, you would typically need the following rou
    - Delete user account <Done>
 
 2. Project Routes:
-   - Create a new project
-   - Retrieve all projects for a user
-   - Retrieve a specific project
-   - Update a project
-   - Delete a project
+   - Create a new project <Done>
+   - Retrieve all projects for a user <Done>
+   - Retrieve a specific project <Done>
+   - Update a project <Done>
+   - Delete a project <Done>
 
 3. Task Routes:
    - Create a new task within a project
@@ -39,5 +39,3 @@ For a project management application, you would typically need the following rou
    - Update a team
    - Delete a team
    - Add/remove members from a team
-
-These are some basic routes you can start with for your project management application. Depending on your application's specific requirements, you may need to add more routes or customize existing ones. Remember to implement proper authentication and authorization mechanisms to secure your routes and protect sensitive data.

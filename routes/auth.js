@@ -8,7 +8,10 @@ const {
   adminDeleteUser,
 } = require('../controllers/auth');
 const { authorize, protect } = require('../middleware/auth');
+const project = require('./project');
 const router = express.Router();
+
+router.use('/:id/projects', project);
 
 router.post('/register', register);
 router.get('/login', login);

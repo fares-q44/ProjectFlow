@@ -1,0 +1,68 @@
+[
+    {
+      "title": "E-commerce Website Development",
+      "description": "Build a robust e-commerce platform with various features such as product catalog, shopping cart, and payment integration.",
+      "owner": "645cdaac09dec6f6d4694fb2",
+      "members": [
+        "646ccca692a19d062380bd05",
+        "646cccd692a19d062380bd07",
+        "646ccce292a19d062380bd09"
+      ],
+      "status": "in progress",
+      "startDate": "2022-10-01",
+      "finishDate": null
+    },
+    {
+      "title": "Mobile App Development",
+      "description": "Create a cross-platform mobile application to provide seamless user experience and enhance customer engagement.",
+      "owner": "646ccceb92a19d062380bd0b",
+      "members": [
+        "645cdaac09dec6f6d4694fb2",
+        "646cccf492a19d062380bd0d"
+      ],
+      "status": "completed",
+      "startDate": "2022-08-15",
+      "finishDate": "2023-02-28"
+    },
+    {
+      "title": "CRM System Implementation",
+      "description": "Implement a customer relationship management system to streamline sales and improve customer service.",
+      "owner": "646ccca692a19d062380bd05",
+      "members": [
+        "646cccd692a19d062380bd07",
+        "646ccceb92a19d062380bd0b",
+        "646cccf492a19d062380bd0d"
+      ],
+      "status": "in progress",
+      "startDate": "2023-01-10",
+      "finishDate": null
+    },
+    {
+      "title": "Website Redesign",
+      "description": "Redesign an existing website to enhance its visual appeal, user experience, and responsiveness.",
+      "owner": "646cccd692a19d062380bd07",
+      "members": [
+        "645cdaac09dec6f6d4694fb2",
+        "646ccce292a19d062380bd09",
+        "646cccf492a19d062380bd0d"
+      ],
+      "status": "on hold",
+      "startDate": "2022-12-01",
+      "finishDate": null
+    },
+    {
+      "title": "Software Testing and QA",
+      "description": "Perform comprehensive testing and quality assurance for a software application to ensure its functionality, performance, and reliability.",
+      "owner": "646ccce292a19d062380bd09",
+      "members": [
+        "645cdaac09dec6f6d4694fb2",
+        "646ccca692a19d062380bd05",
+        "646cccd692a19d062380bd07",
+        "646cccf492a19d062380bd0d"
+      ],
+      "status": "in progress",
+      "startDate": "2023-03-15",
+      "finishDate": null
+    }
+  ]
+  
