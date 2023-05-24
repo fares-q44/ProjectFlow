@@ -1,0 +1,67 @@
+[
+  {
+    "task": "646cfa61e0c41b55baaee9d9",
+    "content": "This task requires creating the necessary database tables and API endpoints for managing the product catalog.",
+    "user": "646ccce292a19d062380bd09"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9d6",
+    "content": "I've started working on the wireframe designs. Will share the initial drafts soon.",
+    "user": "645cdaac09dec6f6d4694fb2"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9d7",
+    "content": "I'm making good progress with the user authentication functionality. Should be completed by the end of the week.",
+    "user": "646ccca692a19d062380bd05"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9da",
+    "content": "I'll start performing load testing on the website to identify any performance bottlenecks.",
+    "user": "646ccceb92a19d062380bd0b"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9db",
+    "content": "The UI design for the mobile app is coming along nicely. Excited to share the progress soon!",
+    "user": "645cdaac09dec6f6d4694fb2"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9dc",
+    "content": "I've started working on the backend development tasks. Will keep you updated on the progress.",
+    "user": "646ccca692a19d062380bd05"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9dd",
+    "content": "The database setup is complete. I've defined the required data models for the project.",
+    "user": "646cccd692a19d062380bd07"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9de",
+    "content": "I'll start integrating the external APIs for authentication and data retrieval.",
+    "user": "646ccce292a19d062380bd09"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9df",
+    "content": "I'll be performing testing on the application to ensure it functions properly. Will report any bugs found.",
+    "user": "646ccceb92a19d062380bd0b"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9d9",
+    "content": "This task requires creating the necessary database tables and API endpoints for managing the product catalog.",
+    "user": "646ccce292a19d062380bd09"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9d6",
+    "content": "I've started working on the wireframe designs. Will share the initial drafts soon.",
+    "user": "645cdaac09dec6f6d4694fb2"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9d7",
+    "content": "I'm making good progress with the user authentication functionality. Should be completed by the end of the week.",
+    "user": "646ccca692a19d062380bd05"
+  },
+  {
+    "task": "646cfa61e0c41b55baaee9da",
+    "content": "I'll start performing load testing on the website to identify any performance bottlenecks.",
+    "user": "646ccceb92a19d062380bd0b"
+  }
+]  

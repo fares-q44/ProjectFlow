@@ -1,24 +1,18 @@
 const asyncHandler = require('../middleware/async');
+
 const Task = require('../models/Task');
-const Project = require('../models/Project');
-const ErrorResponse = require('../utils/errorResponse');
 
 // @desc Create a new task within a project
 // @route POST /api/projects/:projectId/tasks
 // @access Public
 exports.createTask = asyncHandler(async (req, res, next) => {
   const { projectId } = req.params;
-  const project = await Project.findById(projectId);
+  const taskData = req.body;
 
-  if (!project) {
-    return next(
-      new ErrorResponse(`Project not found with id ${projectId}`, 404)
-    );
-  }
+  // Add project ID to task data
+  taskData.project = projectId;
 
-  req.body.project = projectId;
-  const task = await Task.create(req.body);
-
+  const task = await Task.create(taskData);
   res.status(201).json({
     success: true,
     data: task,
@@ -30,12 +24,10 @@ exports.createTask = asyncHandler(async (req, res, next) => {
 // @access Public
 exports.getAllTasks = asyncHandler(async (req, res, next) => {
   const { projectId } = req.params;
-  console.log(projectId);
+
   const tasks = await Task.find({ project: projectId });
-  console.log(tasks);
-  res.status(200).json({
+  res.json({
     success: true,
-    count: tasks.length,
     data: tasks,
   });
 });
@@ -44,14 +36,15 @@ exports.getAllTasks = asyncHandler(async (req, res, next) => {
 // @route GET /api/projects/:projectId/tasks/:taskId
 // @access Public
 exports.getTask = asyncHandler(async (req, res, next) => {
-  const { projectId, taskId } = req.params;
-  const task = await Task.findOne({ _id: taskId, project: projectId });
+  const { taskId } = req.params;
 
+  const task = await Task.findById(taskId);
   if (!task) {
-    return next(new ErrorResponse(`Task not found with id ${taskId}`, 404));
+    res.status(404);
+    throw new Error('Task not found');
   }
 
-  res.status(200).json({
+  res.json({
     success: true,
     data: task,
   });
@@ -61,18 +54,16 @@ exports.getTask = asyncHandler(async (req, res, next) => {
 // @route PUT /api/projects/:projectId/tasks/:taskId
 // @access Public
 exports.updateTask = asyncHandler(async (req, res, next) => {
-  const { projectId, taskId } = req.params;
-  const task = await Task.findOneAndUpdate(
-    { _id: taskId, project: projectId },
-    req.body,
-    { new: true, runValidators: true }
-  );
+  const { taskId } = req.params;
+  const taskData = req.body;
 
+  const task = await Task.findByIdAndUpdate(taskId, taskData, { new: true });
   if (!task) {
-    return next(new ErrorResponse(`Task not found with id ${taskId}`, 404));
+    res.status(404);
+    throw new Error('Task not found');
   }
 
-  res.status(200).json({
+  res.json({
     success: true,
     data: task,
   });
@@ -82,15 +73,16 @@ exports.updateTask = asyncHandler(async (req, res, next) => {
 // @route DELETE /api/projects/:projectId/tasks/:taskId
 // @access Public
 exports.deleteTask = asyncHandler(async (req, res, next) => {
-  const { projectId, taskId } = req.params;
-  const task = await Task.findOneAndDelete({ _id: taskId, project: projectId });
+  const { taskId } = req.params;
 
+  const task = await Task.findByIdAndDelete(taskId);
   if (!task) {
-    return next(new ErrorResponse(`Task not found with id ${taskId}`, 404));
+    res.status(404);
+    throw new Error('Task not found');
   }
 
-  res.status(200).json({
+  res.json({
     success: true,
-    data: {},
+    message: 'Task deleted',
   });
 });

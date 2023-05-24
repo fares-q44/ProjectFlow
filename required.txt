@@ -15,17 +15,17 @@ For a project management application, you would typically need the following rou
    - Delete a project <Done>
 
 3. Task Routes:
-   - Create a new task within a project
-   - Retrieve all tasks for a project
-   - Retrieve a specific task
-   - Update a task
-   - Delete a task
+   - Create a new task within a project <Done>
+   - Retrieve all tasks for a project <Done>
+   - Retrieve a specific task <Done>
+   - Update a task <Done>
+   - Delete a task <Done>
 
 4. Comment Routes:
-   - Create a new comment on a task
-   - Retrieve all comments for a task
-   - Update a comment
-   - Delete a comment
+   - Create a new comment on a task <Done>
+   - Retrieve all comments for a task <Done>
+   - Update a comment <Done>
+   - Delete a comment <Done>
 
 5. File Routes:
    - Upload a file to a project or task

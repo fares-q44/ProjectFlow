@@ -2,6 +2,8 @@ const express = require('express');
 const dotenv = require('dotenv');
 const auth = require('./routes/auth');
 const project = require('./routes/project');
+const task = require('./routes/task');
+const comment = require('./routes/comment');
 const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 const cookieParser = require('cookie-parser');
@@ -19,6 +21,8 @@ app.use(loggingMiddleware);
 
 app.use('/api/users', auth);
 app.use('/api/projects', project);
+app.use('/api/tasks', task);
+app.use('/api/comments', comment);
 app.use(errorHandler);
 
 app.listen(process.env.PORT, () => {

@@ -1,4 +1,6 @@
 const express = require('express');
+const router = express.Router({ mergeParams: true });
+const comment = require('./comment');
 const {
   createTask,
   getAllTasks,
@@ -7,10 +9,19 @@ const {
   deleteTask,
 } = require('../controllers/task');
 
-const router = express.Router({ mergeParams: true });
+// Route for creating a new task within a project
+router.post('/projects/:projectId/tasks', createTask);
 
-// Routes for tasks within a project
-router.route('/').post(createTask).get(getAllTasks);
-router.route('/:taskId').get(getTask).put(updateTask).delete(deleteTask);
+// Route for retrieving all tasks for a project
+router.get('/projects/:projectId/tasks', getAllTasks);
 
+// Route for retrieving a specific task
+router.get('/:taskId', getTask);
+
+// Route for updating a task
+router.put('/:taskId', updateTask);
+
+// Route for deleting a task
+router.delete('/:taskId', deleteTask);
+router.use('/:taskId/comments', comment);
 module.exports = router;
