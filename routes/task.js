@@ -7,6 +7,9 @@ const {
   getTask,
   updateTask,
   deleteTask,
+  uploadFile,
+  downloadFile,
+  deleteFile,
 } = require('../controllers/task');
 
 // Route for creating a new task within a project
@@ -24,4 +27,7 @@ router.put('/:taskId', updateTask);
 // Route for deleting a task
 router.delete('/:taskId', deleteTask);
 router.use('/:taskId/comments', comment);
+router.post('/:id/file', uploadFile);
+router.get('/:id/file', downloadFile);
+router.delete('/:id/file', deleteFile);
 module.exports = router;

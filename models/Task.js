@@ -37,6 +37,8 @@ const taskSchema = new mongoose.Schema({
     ref: 'Project',
     required: true,
   },
+  file: String,
+
   createdDate: {
     type: Date,
     default: Date.now,

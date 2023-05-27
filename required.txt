@@ -28,9 +28,9 @@ For a project management application, you would typically need the following rou
    - Delete a comment <Done>
 
 5. File Routes:
-   - Upload a file to a project or task
-   - Download a file from a project or task
-   - Delete a file from a project or task
+   - Upload a file to a project or task <Done>
+   - Download a file from a project or task <Done>
+   - Delete a file from a project or task <Done>
 
 6. Team Routes:
    - Create a new team

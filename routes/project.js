@@ -5,6 +5,9 @@ const {
   createProject,
   updateProject,
   deleteProject,
+  uploadFile,
+  downloadFile,
+  deleteFile,
 } = require('../controllers/project');
 const auth = require('./auth');
 const taskRouter = require('./task');
@@ -18,5 +21,6 @@ router
   .get(getSingleProject)
   .put(protect, updateProject)
   .delete(protect, deleteProject);
+router.route('/:id/file').post(uploadFile).get(downloadFile).delete(deleteFile);
 router.use('/:projectId/tasks', taskRouter);
 module.exports = router;

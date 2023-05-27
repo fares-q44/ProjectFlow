@@ -8,6 +8,7 @@ const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 const cookieParser = require('cookie-parser');
 const loggingMiddleware = require('./middleware/logging');
+const path = require('path');
 
 const app = express();
 
@@ -18,6 +19,7 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 app.use(loggingMiddleware);
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/users', auth);
 app.use('/api/projects', project);
