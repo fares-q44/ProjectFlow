@@ -33,7 +33,7 @@ For a project management application, you would typically need the following rou
    - Delete a file from a project or task <Done>
 
 6. Team Routes:
-   - Create a new team
+   - Create a new team 
    - Retrieve all teams for a user
    - Retrieve a specific team
    - Update a team

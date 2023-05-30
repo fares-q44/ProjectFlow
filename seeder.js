@@ -5,6 +5,7 @@ const dotebv = require('dotenv');
 const Project = require('./models/Project');
 const Task = require('./models/Task');
 const Comment = require('./models/Comment');
+const Team = require('./models/Team');
 const connectDB = require('./config/db');
 
 dotebv.config({ path: './config/config.env' });
@@ -18,6 +19,9 @@ const tasks = JSON.parse(
 const comments = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/comments.json`, 'utf-8')
 );
+const teams = JSON.parse(
+  fs.readFileSync(`${__dirname}/_data/teams.json`, 'utf-8')
+);
 
 const importData = async () => {
   await connectDB();
@@ -25,6 +29,8 @@ const importData = async () => {
     await Project.create(projects);
     await Task.create(tasks);
     await Comment.create(comments);
+    await Team.create(teams);
+
     console.log('Data imported'.green.inverse);
     process.exit();
   } catch (error) {
@@ -38,6 +44,7 @@ const deleteData = async () => {
     await Project.deleteMany();
     await Task.deleteMany();
     await Comment.deleteMany();
+    await Team.deleteMany();
     console.log('Data Destroyed'.red.inverse);
     process.exit();
   } catch (error) {

@@ -33,6 +33,10 @@ const projectSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  company: {
+    type: String,
+    required: [true, 'Please provide a Company'],
+  },
 });
 
 module.exports = mongoose.model('Project', projectSchema);

@@ -1,0 +1,14 @@
+[{
+    "name": "Development Team",
+    "description": "A team dedicated to software development",
+    "members": ["645cdaac09dec6f6d4694fb2", "646ccca692a19d062380bd05", "646cccd692a19d062380bd07"],
+    "leader": "645cdaac09dec6f6d4694fb2",
+    "createdAt": "2023-05-23T08:00:00.000Z",
+    "updatedAt": "2023-05-23T08:30:00.000Z",
+    "projects": ["646e685f8a61910d1f9132f0", "646e685f8a61910d1f9132f1"],
+    "tasks": ["646e68618a61910d1f9132fb", "646e68618a61910d1f9132fe"],
+    "permissions": {},
+    "tags": ["development", "software"]
+  }
+]
+  
